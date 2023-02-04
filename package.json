@@ -1,0 +1,22 @@
+{
+  "name": "murtuzaalisurti",
+  "version": "0.1.0",
+  "description": "Murtuzaali Surti On The Web!",
+  "main": "index.mjs",
+  "scripts": {
+    "dev": "node ./index.mjs"
+  },
+  "bin": {
+    "murtuzaalisurti": "./index.mjs"
+  },
+  "keywords": [
+    "murtuzaalisurti"
+  ],
+  "author": "Murtuzaali Surti",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.0.1",
+    "chalk": "^5.2.0",
+    "figures": "^5.0.0"
+  }
+}
