@@ -19,7 +19,6 @@ const boxenConfig = {
 }
 
 const about = "Hey there! I am a software engineer & technical writer who loves to develop software using javascript and educate people!\n\nBugs are on my most wanted list!"
-
 const links = [
     {
         title: chalk.rgb(255, 255, 255).bgHex("a53c23")("Portfolio"),
