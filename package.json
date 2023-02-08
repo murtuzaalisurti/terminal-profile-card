@@ -4,7 +4,8 @@
   "description": "Murtuzaali Surti On The Web!",
   "main": "index.mjs",
   "scripts": {
-    "dev": "node ./index.mjs"
+    "dev": "node ./index.mjs",
+    "cmpTS": "npx gulp watch"
   },
   "bin": {
     "murtuzaalisurti": "./index.mjs"
@@ -18,5 +19,13 @@
     "boxen": "^7.0.1",
     "chalk": "^5.2.0",
     "figures": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "terser": "^5.16.3",
+    "typescript": "^4.9.5"
   }
 }
