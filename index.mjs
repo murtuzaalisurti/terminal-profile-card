@@ -18,7 +18,7 @@ const boxenConfig = {
     borderColor: '#8d9191'
 }
 
-const about = "Hey there! I am a software engineer & technical writer who loves to develop software using javascript and educate people!\n\nBugs are on my most wanted list!"
+const about = "A software engineer, building syntackle.com. \nI break and fix code as a software engineer. Bugs are on my most wanted list. I write a lot and have published articles on several publications including css-tricks and freeCodeCamp. \nJavascript is one of my favs and it's even better with Typescript. You can find me coding on my projects such as 'rssed' and 'better', or writing on my blog."
 const links = [
     {
         title: chalk.rgb(255, 255, 255).bgHex("a53c23")("Portfolio"),
@@ -33,13 +33,13 @@ const links = [
         link: generateLink("https://linkedin.com/in/murtuzaali-surti")
     },
     {
+        title: chalk.rgb(255, 255, 255).bgHex("366b71")("Blog - Syntackle"),
+        link: generateLink("https://syntackle.com")
+    },
+    {
         title: chalk.rgb(255, 255, 255).bgHex("399ee6")("Twitter"),
         link: generateLink("https://twitter.com/murtuza_surti")
     },
-    {
-        title: chalk.rgb(255, 255, 255).bgHex("366b71")("Blog - Syntackle"),
-        link: generateLink("https://syntackle.live")
-    }
 ]
 
 const content = `${about}\n\n\n${links.map(link => `${link.title}\n${link.link}`).join("\n\n")}`
