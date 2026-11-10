@@ -18,27 +18,27 @@ const boxenConfig = {
     borderColor: '#8d9191'
 }
 
-const about = "A software engineer, building syntackle.com. \n\nI break and fix code as a software engineer. Bugs are on my most wanted list. I write a lot and have published articles on several publications including css-tricks and freeCodeCamp. \n\nJavascript is one of my favs and it's even better with Typescript. You can find me coding on my projects such as 'rssed' and 'better', or writing on my blog."
+const about = "a senior software engineer talking to machines, and letting them talk back.\n\ni break and fix code, and have published articles on several publications including css-tricks and freeCodeCamp. you can find me developing my projects on GitHub, or writing on my blog syntackle.com."
 const links = [
     {
-        title: chalk.rgb(255, 255, 255).bgHex("a53c23")("Portfolio"),
-        link: generateLink('https://murtuzaalisurti.github.io')
+        title: chalk.rgb(255, 255, 255).bgHex("a53c23")(" more about me "),
+        link: generateLink('https://murtuzaalisurti.com')
     },
     {
-        title: chalk.rgb(255, 255, 255).bgHex("4c8e52")("GitHub"),
+        title: chalk.rgb(255, 255, 255).bgHex("4c8e52")(" github "),
         link: generateLink("https://github.com/murtuzaalisurti")
     },
     {
-        title: chalk.rgb(255, 255, 255).bgHex("0058e0")("LinkedIn"),
+        title: chalk.rgb(255, 255, 255).bgHex("0058e0")(" linkedin "),
         link: generateLink("https://linkedin.com/in/murtuzaali-surti")
     },
     {
-        title: chalk.rgb(255, 255, 255).bgHex("366b71")("Blog - Syntackle"),
+        title: chalk.rgb(255, 255, 255).bgHex("366b71")(" blog - syntackle "),
         link: generateLink("https://syntackle.com")
     },
     {
-        title: chalk.rgb(255, 255, 255).bgHex("399ee6")("Twitter"),
-        link: generateLink("https://twitter.com/murtuza_surti")
+        title: chalk.rgb(255, 255, 255).bgHex("399ee6")(" twitter (x) "),
+        link: generateLink("https://x.com/murtuza_surti")
     },
 ]
 
