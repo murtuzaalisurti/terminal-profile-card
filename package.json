@@ -4,7 +4,9 @@
   "description": "Murtuzaali Surti On The Web!",
   "main": "index.mjs",
   "scripts": {
-    "dev": "node ./index.mjs"
+    "dev": "node ./index.mjs",
+    "smoke": "node ./index.mjs > /dev/null",
+    "preversion": "npm run smoke"
   },
   "bin": {
     "murtuzaalisurti": "./index.mjs"
@@ -12,11 +14,23 @@
   "keywords": [
     "murtuzaalisurti"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murtuzaalisurti/terminal-profile-card.git"
+  },
   "author": "Murtuzaali Surti",
   "license": "ISC",
   "dependencies": {
-    "boxen": "^8.0.1",
-    "chalk": "^5.3.0",
+    "boxen": "^9.0.0",
+    "chalk": "^6.0.1",
     "figures": "^6.1.0"
+  },
+  "bugs": "https://github.com/murtuzaalisurti/terminal-profile-card/issues",
+  "homepage": "https://github.com/murtuzaalisurti/terminal-profile-card#readme",
+  "files": [
+    "index.mjs"
+  ],
+  "engines": {
+    "node": ">=22"
   }
 }
