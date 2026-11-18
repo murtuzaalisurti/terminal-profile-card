@@ -31,7 +31,7 @@ jobs:
 
       # package-lock.json is gitignored here, so `npm ci` is not an option
       - run: npm install
-      - run: npm run smoke
+      - run: npm test
 
       - name: Stage publish to npm
         run: |

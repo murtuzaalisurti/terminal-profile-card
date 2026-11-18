@@ -5,8 +5,8 @@
   "main": "index.mjs",
   "scripts": {
     "dev": "node ./index.mjs",
-    "smoke": "node ./index.mjs > /dev/null",
-    "preversion": "npm run smoke"
+    "test": "node --test",
+    "preversion": "npm test"
   },
   "bin": {
     "murtuzaalisurti": "./index.mjs"
@@ -20,11 +20,6 @@
   },
   "author": "Murtuzaali Surti",
   "license": "ISC",
-  "dependencies": {
-    "boxen": "^9.0.0",
-    "chalk": "^6.0.1",
-    "figures": "^6.1.0"
-  },
   "bugs": "https://github.com/murtuzaalisurti/terminal-profile-card/issues",
   "homepage": "https://github.com/murtuzaalisurti/terminal-profile-card#readme",
   "files": [
